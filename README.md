@@ -154,15 +154,6 @@ Start MySQL:
 
 _docker compose up -d_
 
----
-
-console.error('Connection failed:', err.message);
-  }
-}
-
-testConnection();
-
----
 
 ### Implementation Details:
 * **`mysql2/promise`**: This module is used to leverage `async/await` syntax, which simplifies handling asynchronous database operations compared to traditional callback-based methods.
